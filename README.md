@@ -27,6 +27,7 @@ composer update
 A könyvtárban, ahol az alkalmazás van, command line-ban adjuk ki a következő parancsokat:
 
 **php artisan migrate**
+
 **php artisan apiseeding**
 
 
