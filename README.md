@@ -4,6 +4,8 @@ git clone git@github.com:safipeti/laravel-http-client.git
 
 - hozzunk létre egy mysql adatbázist (pl. rick)
 
+- hozzunk létre egy .env fájlt
+
 - a .env fájlban konfiguráljuk az adatbázis kapcsolatot
 
 példa:
@@ -14,6 +16,12 @@ DB_PORT=3306
 DB_DATABASE=rick
 DB_USERNAME=root
 DB_PASSWORD=
+
+- telepítsük a szükséges csomagokat
+
+composer update
+
+
 
 
 A könyvtárban, ahol az alkalmazás van, command line-ban adjuk ki a következő parancsokat:
